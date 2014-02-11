@@ -1,0 +1,464 @@
+/******************************************************************
+Theme Name: Leeds Data Mill
+Theme URI: http://www.themble.com/bones
+Description: This site was built using the Bones Development Theme. For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones/issues" title="Bones Issues">Bones Issues</a> page on Github. You'll want to customize this for your clients with your own information.
+Author: Michael Wood
+Author URI: http://www.bloomagency.com
+Version: 1.3
+Tags: flexible-width
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+******************************************************************/
+
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+*  { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+#head  { }
+#main  { }
+#main .cnt   { }
+#main .cnt  article {}
+#wall  { }
+#foot  { }
+
+   
+
+body { font-family: 'Droid Sans', sans-serif; font-size: 0.875em ; line-height: 1.286em ; background: rgb(237,237,237); }
+
+html, button, input, select, textarea { color: #1f1f1f; }
+h1 , h2 , h3 , h4 , h5 , h6 , p  { margin: 0px;  padding: 0 0 1.286em ; }
+h6, p , li { font-size: 1em ; line-height: 1.286em; }
+h1 { font-size: 1em ; line-height: 1.286em; }
+h2 { }
+h3 { }
+i em  { font-size: normal ; }
+p > a,
+li > a  { color: rgb(16,20,48) ; background-color: rgba(16,20,48,0)  transition: 0.5s opacity linear;}
+p > a ,
+li > a  { -moz-transition: 0.5s all linear;-webkit-transition: 0.5s all linear;-ms-transition: 0.5s all linear;-o-transition: 0.5s all linear; }
+p > a:visited ,
+p > a:visited  { background-color: #f0f0f0 ; background-color: rgba(16,20,48,0.15)  }
+p > a:hover ,
+li > a:hover  { background-color: #e9e9e9  }
+
+#head  { }
+#head .cnt { padding: 0 ;}
+#head .cnt h1 { display: none; }
+#head .cnt .img  { position: relative; padding: 1.2855em 2.571em 0.857em ; }
+#head .cnt .img img { width: 100%; transition: 0.5s opacity linear;}
+#head .cnt .img img  { -moz-transition: 0.5s opacity linear;-webkit-transition: 0.5s opacity linear;-ms-transition: 0.5s opacity linear;-o-transition: 0.5s opacity linear; }
+#head .cnt .img img.light { display: none ; }
+#head .cnt .img img.dark { }
+
+#head .cnt nav  { display: none ; }
+#head .cnt nav ul  {margin:0px; padding:0px; list-style-type:none;}
+#head .cnt nav ul li   {margin:0px; padding:0 0 1.286em 0 ; list-style-type:none;}
+#head .cnt nav ul li a  { display: block; background-color: rgba(255,255,255,0) ; color: rgb(16,20,48) ; padding: 0.286em 0.714em ; margin: 0 2.571em 0 0; text-align: right ; text-decoration: none; font-family: 'Roboto Slab', serif; transition: 0.5s all linear;}
+#head .cnt nav ul li a  { -moz-transition: 0.5s all linear;-webkit-transition: 0.5s all linear;-ms-transition: 0.5s all linear;-o-transition: 0.5s all linear;}
+#head .cnt nav ul li.on a ,
+#head .cnt nav ul li.on a:hover  { background-color: rgb(255,255,255) ; }
+#head .cnt nav ul li a:hover  { background-color: #999999 ; background-color: rgba(255,255,255,0.5) ; }
+
+#main  { padding: 0 0.643em ; background: rgb(255,255,255) ; }
+#main .cnt  {  }
+#main .cnt .img { }
+#main .cnt .img .jpg { width: 100%; }
+#main .cnt article { position: relative; }
+#main .cnt article header  { padding: 0  ; }
+#main .cnt article header h1 { font-size: 2.571em ; line-height: 1em ; padding: 0.5em 0 1em ; text-transform: uppercase;}
+#main .cnt article header button  { display: none; }
+#main .cnt article section{ background: rgb(255,255,255) ; padding: 0 0 1.286em ; }
+#main > .cnt > article > section  {transition: 0.25s margin-top linear; }
+#main > .cnt > article > section  { -moz-transition: 0.25s margin-top linear;-webkit-transition: 0.25s margin-top linear;-ms-transition: 0.25s margin-top linear;-o-transition: 0.25s margin-top linear;}
+#main .cnt article button  { display: block;  background-position: 95% 50% ; background-repeat: no-repeat; background-size: 1.286em ; padding: 0.643em 3.858em 0.643em 1.286em ; border-width: 0px; text-decoration: none; text-transform: uppercase ; font-family: 'Roboto Slab', serif; transition: 0.5s all linear;}
+#main .cnt article button  { -moz-transition: 0.5s all linear;-webkit-transition: 0.5s all linear;-ms-transition: 0.5s all linear;-o-transition: 0.5s all linear;}
+#main .cnt article button:hover  { background-color: rgb(255,255,0) ; }
+#main .cnt article header .continue-reading  { color: rgb(255,255,255) ; background-image: url(css/i/icon-arrow-ffffff.svg) ; background-color: rgb(16,20,48) ; }
+#main .cnt article header .continue-reading:hover  { background-color: rgb(136,140,168) ; background-color: rgba(16,20,48,0.5) ; }
+#main .cnt article section .continue-reading  { color: rgb(255,255,255) ; background-image: url(css/i/icon-arrow-ffffff.svg) ; background-color: rgb(16,20,48) ; }
+#main .cnt article section .continue-reading:hover  { background-color: rgb(136,140,168) ; background-color: rgba(16,20,48,0.5) ; }
+#main .cnt #register-leeds-data-mill-interest section .contact-form { margin: 0 ; padding: 1.286em 0 0  ;  width: 100%; }
+#main .cnt #register-leeds-data-mill-interest section .contact-form form ul ,
+#main .cnt #register-leeds-data-mill-interest section .contact-form form ul li { margin:0px; padding: 0px; list-style-type:none; }
+
+#main .cnt .img { position: relative; background: rgb(16,20,48) ;}
+#main .cnt .img .jpg { width: 100%; }
+#main .cnt .img .svg { position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; opacity: 1 ; }
+#main .cnt .img .svg.logo { position: absolute; top: 20% ; left: 20%; height: 60%; width: 60%; opacity: 1 ; }
+#main .cnt .img-50 { float: left; width: calc(50% - 1.286em); margin: 0 1.286em 0.643em 0 ; }
+
+#wall  {  }
+#wall  .cnt { padding: 0 0em 1.286em  ; }
+#wall  .cnt .sharing-interface { padding: 0.6155em 1.231em ; }
+#wall  .cnt .sharing-interface  .icon_text  { padding: 2em 0.5em 0.5em ;  display: inline-block; text-align: center; }
+#wall  .cnt .sharing-interface  .icon_text a  { text-decoration: none;  color: #4B4B4B; }
+#wall  .cnt .sharing-interface  .icon_text a:hover  { color: #1f1f1f; }
+#wall  .cnt .sharing-interface  .icon_text a span { font-size: 72px;  display: block; height: 0.65em; }
+#wall  .cnt header h1  { padding: 0 0.643em ; font-size: 2em ; line-height:  1.286em ; background: url(css/i/section-2-bkg.jpg) rgb(16,20,48) 100% 0% no-repeat; color: rgb(255,255,255) ; }
+#wall  .cnt section  { font-family: arial ; font-size: 0.929em ; color: #4b4b4b;  text-shadow: 1px 1px 1px rgb(255,255,255) ;}
+#wall  .cnt section > #sidebar1 ,
+#wall  .cnt section > #sidebar1  > li  { margin: 0px; padding: 0px; list-style-type: none; }
+#wall  .cnt section .post { margin: 0 ; position: relative; padding: 0 ; }
+#wall  .cnt section .post .post-head  { padding: 0.615em 1.385em ; background: #D5D5D5 ;background: rgba(0,0,0,0.1) ;}
+#wall  .cnt section .post .post-head  h2 { font-size: 2em ; line-height:  1.286em ; font-weight: bold; text-transform: uppercase; margin: 0; padding: 0; text-shadow: 1px 1px 1px #FFFFFF ; }
+#wall  .cnt section .post .post-body  { padding: 0.615em 1.385em 0 ; margin: 0 0 -0.615em ; }
+#wall  .cnt section .post .post-twit  { padding: 0  ; margin: 0 0 1.385em  ;  }
+#wall  .cnt section .post .post-twit ul   { margin: 0px; padding: 0px; list-style-type: none; }
+#wall  .cnt section .post .post-twit ul li { padding: 0.615em  1.385em ; margin: 0  list-style-type: none; }
+#wall  .cnt section .post .post-twit ul li:nth-of-type(even)  { background: #E1E1E1 ; background: rgba(0,0,0,0.05); }
+#wall  .cnt section .post .post-foot  { padding: 0 1.636em ; margin: 0 0 -0.615em ; font-size: 0.786em ;  line-height: 1.273em ; }
+#wall  .cnt section .post .post-foot span  { display: block ;  }
+#wall  .cnt section .post .post-talk  { padding: 0 1.385em  ; margin: 0 ;   }
+#wall  .cnt section .post .post-talk h3 { font-size: 1em ; line-height:  1.286em ; font-weight: bold; text-transform: uppercase; margin: 0; padding: 0.643em 0 ; color: rgb(26,28,30) ;  background-image: url(css/i/icon-arrow-right.svg) ; background-position: 0% 50% ; background-repeat: no-repeat; background-size: 1em ; padding-left: 1.286em ; cursor: pointer ; }
+#wall  .cnt section .post .post-talk h3.on { background-image: url(css/i/icon-arrow.svg) ; }
+#wall  .cnt section .post .post-talk h3.off { display: none;}
+#wall  .cnt section .post .post-talk ol  { margin: 0em 0 0 0.4em;padding: 0 0 0.615em 0.8em ; border-left: 0.1850em solid rgb(195,195,196); list-style-type:none; }
+#wall  .cnt section .post .post-talk ol:empty  { display :none; }
+#wall  .cnt section .post .post-talk ol li { margin:0;padding:0.615em 0;list-style-type:none;}
+#wall  .cnt section .post .talk-head  { display: block; }
+#wall  .cnt section .post .talk-body  { }
+#wall  .cnt section .contact-form { padding: 0 1.286em ;  }
+#wall  .cnt section .contact-form h3 { font-size: 1em ; line-height:  1.286em ; font-weight: bold; text-transform: uppercase; margin: 0; padding: 0.643em 0 ; color: rgb(26,28,30) ;  background-image: url(css/i/icon-arrow-right.svg) ; background-position: 0% 50% ; background-repeat: no-repeat; background-size: 1em ; padding-left: 1.286em ; cursor: pointer ; }
+#wall  .cnt section .contact-form h3.on { background-image: url(css/i/icon-arrow.svg) ; }
+#wall  .cnt section .contact-form p  { margin: 0; padding:0 ; }
+#wall  .cnt section .contact-form .logged-in-as  {}
+#wall  .cnt section .contact-form .comment-respond p  { margin: 0 0 0 0.4em;padding: 0.615em 0 0.615em 0.8em ; border-left: 0.1850em solid rgb(195,195,196) ; }
+#wall  .cnt section .contact-form .comment-form-comment  textarea { margin-bottom: 0 ; }
+#wall  .cnt section .contact-form .comment-respond p.comment-form-comment   { padding-top: 0 ; }
+
+.contact-form .comment-form-author ,
+.contact-form .comment-form-email   { display: block ; width: 50%; float: left; }
+.contact-form .comment-form-author  label { display: block ; }
+.contact-form .comment-form-author  input {width: calc(100% - 0.615em - 0.615em); padding: 0.615em ; font-size: 1em ; line-height:  1.286em ;}
+.contact-form .comment-form-email  label { display: block ; }
+.contact-form .comment-form-email  input { width: calc(100% - 0.615em - 0.615em); padding: 0.615em ;font-size: 1em ; line-height:  1.286em ; }
+.contact-form .comment-form-comment  label { display: none ; }
+.contact-form .comment-form-comment  textarea { width: calc(100% - 0.615em - 0.615em); margin: 0.615em 0 ; padding: 0.615em ; border-width: 0px;  font-size: 1em ; line-height:  1.286em ;}
+.contact-form .comment-form-comment  textarea { height: 100px ; }
+.contact-form .form-submit  {  padding: 0 0 0.615em ; }
+.contact-form .form-submit input { width: calc(100% - 0.615em - 0.615em); border-width: 0px; background: rgb(162,162,162) ; color: rgb(255,255,255) ; padding: 0.615em ; }
+.contact-form .comment-form-author  input ,
+.contact-form .comment-form-email  input ,
+.contact-form .comment-form-comment  textarea { border: 1px solid rgb(50,50,50) ;  }
+
+#foot  {  padding: 0 0.643em ;}
+#foot  .cnt { padding: 1.286em 0 ; text-transform: uppercase ; }
+#foot  .cnt  p  {color: rgb(10,95,124) ;padding: 1.286em 0 ; }
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+   
+@media only screen and (min-width: 480px) {
+
+	#head  {  position: fixed; left: 0px; top: 0px; width: 33% ; z-index: 1600 ;  }
+	#head .cnt nav  { display: block ; }
+	#head .cnt .img  { width: auto; opacity: 1; }
+	#head .cnt .img img.light { display: block ; }
+	#head .cnt .img img.dark { position: absolute; top: 1.286em ; left: 2.571em ; width: calc(100% - 2.571em - 2.571em ) ; display: block ; }
+	#head .cnt .img img.off { opacity: 0;}
+
+	#main  { width: 100% ; float: left; padding: 0px; }
+	#main .cnt article  { margin: 0 0 0 34%; padding: 0  0 0 ;  }
+	#main .cnt article section{ padding: 0 1.286em 3.858em 0 ;  }
+
+	#wall  { clear: both ; padding: 0 0 0 34% ; }
+	#foot  { width: 100% ; clear: both ; }
+	#foot .cnt   { margin: 0 0 0 34%; padding: 0 16% 0 0 ;  }
+	}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	#head .cnt .img img.light { display: none  ; }
+	#head .cnt .img img.dark { display: block ; position: static; width: 95%; }
+	#head .cnt .img img.off { opacity: 1;}
+	}
+
+@media only screen and (min-width: 768px) {
+
+	#head  { width: 20% ;}
+	#head .cnt nav ul li   { padding:0 0 0.643em 0 ; }
+	#head .cnt .img img.light {  }
+	#head .cnt .img img.dark { position: absolute; width: calc(100% - 2.571em - 2.571em ) ; }
+	#head .cnt .img img.off { opacity: 0;}
+	#main  { width: 70% ; }
+	#main .cnt article { margin: 0 0 0 29.125%; padding: 0 14.5625% 0 0 ; }
+	#main .cnt article header  { color: rgb(255,255,255); padding: 0 ; }
+	#main .cnt article header .img { position: absolute; left: -52%;  width: 152%; z-index: 1400 ; }
+	#main .cnt article header button  { display: block; }
+	#main .cnt article header h1 { padding: 1em 0 ; }
+	#main .cnt article header h1 ,
+	#main .cnt article header button ,
+	#main .cnt article header p	{ position: relative;z-index: 1500 ; }
+	#main .cnt article header h1 ,
+	#main .cnt article header p { text-shadow: 0px 0px 0.4em rgba(0,0,0,0.6); }
+	#main .cnt article header h1 { }
+	#main .cnt article header .img {  width: 143.6875%; left: -43.6875%; }
+	#main .cnt article section{ padding: 1em 0 3.858em ;  }
+	#wall  { width: 30% ; float: left; clear: none ; padding: 0  ; }
+	#foot  { width: 70% ; }
+	#foot .cnt  { margin: 0 0 0 29.125%; padding: 0 14.5625% 0 0 ; }
+	}
+
+@media only screen and (min-width: 990px) {
+	#main .cnt article header h1 { padding: 57% 0 1em ; padding-top: calc(58.5% - 1em) ; }
+	}
+
+@media only screen and (min-width: 1140px) {
+	#main .cnt article header h1 { padding: 57% 0 1em ; padding-top: calc(58.5% - 1em) ; }
+	}
+
+
+.no-smil.svg #main .cnt article button  ,
+.no-svg #main .cnt article button  { padding-right: 1.286em ; }
+.no-smil.svg #main .cnt article header .continue-reading  ,
+.no-svg #main .cnt article header .continue-reading  { background-image: none; }
+.no-smil.svg #wall .cnt section .post .post-talk h3  ,
+.no-svg #wall .cnt section .post .post-talk h3  ,
+.no-smil.svg #wall .cnt section .contact-form h3  ,
+.no-svg #wall .cnt section .contact-form h3  { background-image: none; padding-left: 0em ; }
+
+.no-svg #wall  .cnt .sharing-interface { padding: 0.6155em 1.231em ; }
+.no-svg #wall  .cnt .sharing-interface  .icon_text  { padding: 0.6155em 0em  ;  display: block; text-align: left; }
+.no-svg #wall  .cnt .sharing-interface  .icon_text a  { font-size: 1.231em ;  line-height: 1em ; text-decoration: none;  color: #4B4B4B; }
+.no-svg #wall  .cnt .sharing-interface  .icon_text a span { display: none ; }
+
+
+/* ==========================================================================
+   Mono Social Icons
+========================================================================== */
+
+	
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('css/f/MonoSocialIconsFont-1.10.eot');
+    src: url('css/f/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('css/f/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('css/f/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('css/f/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('css/f/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+	
+	
+	/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
